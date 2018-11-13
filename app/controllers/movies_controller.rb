@@ -1,5 +1,5 @@
 class MoviesController < ApplicationController
-    skip_before_action :require_user, only: [:index, :show]
+    skip_before_action :require_user, only: [:index, :show, :search_tmdb]
     def index
         @movies = Movie.order(:title)
     end
