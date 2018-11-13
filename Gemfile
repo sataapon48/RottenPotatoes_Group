@@ -63,3 +63,6 @@ gem 'haml'
 
 # use omniauth-twitter for Twitter authentication
 gem 'omniauth-twitter'
+
+#use themoviedb to connect to TDMb
+gem 'themoviedb'
